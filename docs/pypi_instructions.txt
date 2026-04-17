@@ -1,0 +1,21 @@
+To Upload a Project to PyPI:
+
+1. In `setup.py` update the version:     
+
+	    version="1.1.1",
+
+2. Remove the dist/ directory
+
+	rm -rf dist/
+
+3. Use setuptools to make a new dist/
+
+	pip install setuptools wheel
+	python setup.py sdist bdist_wheel
+
+4. Upload to PyPI with twine
+
+	pip install twine
+	twine upload dist/*
+
+

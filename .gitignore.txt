@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docs build
+docs/_build/
+
+# Local generated outputs
+*.png
+*.pdf
+*.svg
+!docs/images/*.png
+!docs/images/*.svg
+
+# Local media
+*.mp4
+
+# Optional: large trajectory/test data
+testing/*.mdcrd
+testing/*.prmtop
+testing/*.pdb
