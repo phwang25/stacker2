@@ -1,0 +1,4 @@
+sphinx
+sphinx_design
+sphinx_book_theme
+numpydoc
